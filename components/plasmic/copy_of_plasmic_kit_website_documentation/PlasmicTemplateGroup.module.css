@@ -1,0 +1,102 @@
+.root {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 10px;
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  min-width: 0;
+}
+.container > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.container > :global(.__wab_flex-container) > *,
+.container > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.templateTile__pPsAe:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__d5Eb {
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+.templateTile__nmkJx:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__qufic {
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+.templateTile__r93Ik:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__pOlc8 {
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+.templateTile__zP0G0:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__d7G0G {
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  position: relative;
+  width: 1em;
+  height: 1em;
+}

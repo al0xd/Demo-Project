@@ -1,0 +1,44 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  padding: 12px 16px;
+  border-width: 0px;
+  border-style: none;
+}
+.root__colors_purple {
+  background: rgb(129, 77, 231);
+}
+.root__colors_cyan {
+  background: rgb(4, 164, 244);
+}
+.root:focus {
+  outline: none;
+  padding: 10px 14px;
+  border: 2px solid rgb(4, 164, 244);
+}
+.root__colors_purple:hover {
+  background: rgb(147, 96, 247);
+}
+.root__colors_purple:active {
+  background: rgb(157, 109, 252);
+}
+.root__colors_cyan:hover {
+  background: rgb(0, 153, 230);
+}
+.root__colors_cyan:active {
+  background: rgb(0, 139, 208);
+}
+.slotChildren {
+  font-weight: 600;
+}
+.slotChildren__colors_purple {
+  color: rgb(255, 255, 255);
+}
+.slotChildren__colors_cyan {
+  color: rgb(255, 255, 255);
+}
+.root:focus .slotChildren > * {
+  outline: none;
+}

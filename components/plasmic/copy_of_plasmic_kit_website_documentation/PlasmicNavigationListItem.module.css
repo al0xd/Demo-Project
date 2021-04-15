@@ -1,0 +1,24 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.root__indent_sublink {
+  padding-left: 16px;
+}
+.slotChildren__styles_active {
+  font-weight: 600;
+  color: rgb(0, 153, 230);
+}
+.slotChildren__styles_title {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: rgb(150, 153, 158);
+}
+.slotChildren__styles_link {
+  color: rgb(0, 153, 230);
+}

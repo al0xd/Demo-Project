@@ -1,0 +1,129 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 32px 16px;
+}
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  min-width: 288px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.link__vx0Ch {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.img___4AM8 {
+  display: flex;
+  width: 136px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.img__jpFio {
+  display: flex;
+  position: relative;
+  width: 64px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.box__zZzAz {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__zZzAz > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.box__zZzAz > :global(.__wab_flex-container) > *,
+.box__zZzAz > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 16px;
+}
+.link__eGV {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__anIn2 {
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+  font-weight: 600;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.link___9Ith8 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__q4NwA {
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+  font-weight: 600;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.link__vR0F {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box___10Rp3 {
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+  font-weight: 600;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.link__sniCd {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.twitterIcon:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 560px) {
+  .twitterIcon:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.linkButton:global(.__wab_instance) {
+  position: relative;
+}
+.youTubeIcon:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.gitHubIcon:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
